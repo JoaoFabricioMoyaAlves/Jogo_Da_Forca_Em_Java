@@ -12,7 +12,22 @@ public class Main {
                     .map(HangmanChar::new).toList();
         
         System.out.println(characters);
+        var hangmanGame = new HangmanGame(characters);
         System.out.println(new HangmanGame(characters));
+        System.out.println(hangmanGame);
+        hangmanGame.inputCharacter('a');
+        System.out.println(hangmanGame);
+        hangmanGame.inputCharacter('a');
+        System.out.println(hangmanGame);
+        hangmanGame.inputCharacter('c');
+        System.out.println(hangmanGame);
+        hangmanGame.inputCharacter('d');
+        System.out.println(hangmanGame);
+        hangmanGame.inputCharacter('h');
+        System.out.println(hangmanGame);
+        hangmanGame.inputCharacter('j');
+        System.out.println(hangmanGame);
+        hangmanGame.inputCharacter('k');
 
     }
 }
