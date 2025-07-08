@@ -76,6 +76,10 @@ public class HangmanGame {
         }
     }
 
+    public HangmanGameStatus getHangmanGameStatus(){
+        return hangmanGameStatus;
+    }
+
     @Override
     public String toString(){
         return hangman;
